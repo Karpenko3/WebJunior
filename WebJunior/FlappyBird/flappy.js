@@ -1,0 +1,14 @@
+let bird = new Image();
+let back = new Image();
+let road = new Image();
+let pipeUp = new Image();
+let pipeBottom = new Image();
+bird.src = "img/bird.png";
+back.src = "img/back.png";
+road.src = "img/road.png";
+pipeUp.src = "img/pipeUp.png";
+pipeBottom.src = "img/pipeBottom.png";
+let fly_audio = new Audio();
+let score_audio = new Audio();
+fly_audio.src = "audio/fly.mp3";
+score_audio.src = "audio/score.mp3";
